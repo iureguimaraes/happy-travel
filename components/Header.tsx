@@ -9,6 +9,7 @@ export default function Header({ city }: any) {
         <Image
           priority
           fill
+          placeholder="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYRGtBwAAzwCeSIUh1wAAAABJRU5ErkJggg=="
           src={
             city
               ? `https://source.unsplash.com/random/1200x400/?${city}`
