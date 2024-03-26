@@ -1,14 +1,10 @@
 import Header from "@/components/Header";
-
-import { promises as fs } from "fs";
+import { data } from "@/data/data.js";
 import { Key } from "react";
 
 export default async function City({ params }: any) {
   const city = params.city.toUpperCase();
   const cityUpper = city?.replace(/-/g, " ").toUpperCase();
-
-  const file = await fs.readFile(process.cwd() + "/data/data.json", "utf8");
-  const data = JSON.parse(file);
 
   const contentCity = data.filter(
     (obj: { [x: string]: any }) =>
