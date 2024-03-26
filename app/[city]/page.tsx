@@ -17,7 +17,27 @@ export default async function City({ params }: any) {
       <Header city={params.city} />
 
       <div className="container px-8 md:px-40 transition duration-300">
-        <h2 className="text-slate-800 font-sans text-bold text-4xl md:text-5xl antialiased font-bold mt-10 mb-7">
+        <Link href="/" className="flex w-32">
+          <div className="flex py-6 text-sm text-slate-900 hover:text-slate-500 hover:text-ellipsis transition-colors duration-300 border rounded-lg gap-x-2 sm:w-auto">
+            <svg
+              className="w-5 h-5 rtl:rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+              />
+            </svg>
+            <span>Back to home</span>
+          </div>
+        </Link>
+
+        <h2 className="text-slate-800 font-sans text-bold text-4xl md:text-5xl antialiased font-bold mb-7">
           {cityUpper}
         </h2>
 
