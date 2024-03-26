@@ -23,11 +23,10 @@ export default function Grid({ citiesData }: any) {
 
   return (
     <>
-      <div className="flex w-96 rounded bg-white">
+      <div className="flex w-72 sm:w-96 rounded bg-white">
         <input
           type="text"
           placeholder="Search by continent or city"
-          // className="mb-2 px-2 py-2 border-rounded"
           onChange={(e) => setSearchQuery(e.target.value)}
           className="w-full border-none bg-transparent px-4 py-1 text-gray-900 outline-none focus:outline-none"
         />
@@ -37,7 +36,7 @@ export default function Grid({ citiesData }: any) {
       </div>
 
       <div className="flex items-center justify-center container mx-auto mt-6">
-        <div className="grid gap-8 grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4 pb-8 md:pb-20">
+        <div className="px-10 grid gap-6 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-4 pb-8 md:pb-20">
           {data
             .filter((item) => {
               return searchQuery.toLowerCase() === ""

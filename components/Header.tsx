@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Header({ city }: any) {
   return (
     <>
-      <header className="relative w-full min-h-96 md:h-3/6 flex md:block flex-col jutify-center items-end">
+      <header className="relative w-full min-h-96 md:h-3/6 flex md:block flex-col jutify-center items-end drop-shadow-xl">
         <Image
           priority
           fill
@@ -17,7 +17,7 @@ export default function Header({ city }: any) {
           }
           alt="Sardenha"
           quality={100}
-          className="pointer-events-none select-none"
+          className="pointer-events-none select-none transition-all duration-300"
           style={{ objectFit: "cover", objectPosition: "75%" }}
         />
       </header>
