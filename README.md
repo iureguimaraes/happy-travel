@@ -1,4 +1,4 @@
-## Getting Started
+## Happy Travel
 
 First, run the development server:
 
