@@ -10,6 +10,7 @@ export const data = [
       "Last but not least, Paris exudes an unmistakable romantic ambiance that enchants couples and solo travelers alike. Stroll hand in hand along the Seine River, picnic in picturesque parks like the Luxembourg Gardens, and witness the city come alive with dazzling lights as dusk falls – Paris is truly a city where romance flourishes at every corner.",
     ],
     continent: "europe",
+    tags: "architecture, art, culture, food",
   },
   {
     city: "Cairo",
@@ -21,6 +22,7 @@ export const data = [
       "As the sun sets over Cairo, the city comes alive with energy and excitement. From vibrant nightlife spots and cultural performances to tranquil river cruises beneath the stars, Cairo offers endless opportunities for exploration and discovery. Whether you're marveling at the illuminated splendor of the Cairo Tower or simply soaking in the bustling atmosphere of Tahrir Square, every moment spent in this captivating city is sure to be filled with wonder and adventure.",
     ],
     continent: "Africa",
+    tags: "architecture, culture, history, river",
   },
   {
     city: "New York City",
@@ -32,6 +34,7 @@ export const data = [
       "At night, New York City truly comes alive, with neon lights illuminating the skyline and bustling streets teeming with activity. Explore the vibrant neighborhoods of Brooklyn and Queens, dance the night away in trendy clubs and bars, or simply soak in the breathtaking views from atop the One World Observatory. Whatever your nocturnal preference, the city that never sleeps promises an unforgettable experience.",
     ],
     continent: "North America",
+    tags: "skycraper, broadway, museum, diversity, fashion",
   },
   {
     city: "Rio de Janeiro",
@@ -44,6 +47,7 @@ export const data = [
       "Whether you're sipping caipirinhas on the beach, dancing the night away at a samba club, or simply soaking in the stunning views from one of Rio's many lookout points, the cidade maravilhosa (marvelous city) offers an unforgettable experience that will leave you longing to return.",
     ],
     continent: "South America",
+    tags: "beach, music, culture",
   },
   {
     city: "Bangkok",
@@ -55,6 +59,7 @@ export const data = [
       "At night, Bangkok comes alive with a kaleidoscope of lights, sounds, and entertainment options. From lively rooftop bars and clubs to traditional Thai dance performances and Muay Thai boxing matches, the city offers endless opportunities for nightlife enthusiasts to party the night away.",
     ],
     continent: "Asia",
+    tags: "show, temples, river, food",
   },
   {
     city: "Sydney",
@@ -66,6 +71,7 @@ export const data = [
       "Sydney's culinary scene is as diverse as its population, with a plethora of dining options to suit every taste and budget. From trendy waterfront restaurants serving fresh seafood to bustling food markets offering global cuisines, Sydney promises a gastronomic adventure that will delight food lovers.",
     ],
     continent: "Australia",
+    tags: "music, gardens, culture, park",
   },
   {
     city: "Cape Town",
@@ -77,6 +83,7 @@ export const data = [
       "At night, Cape Town comes alive with a vibrant energy, with an array of bars, restaurants, and live music venues to explore. Sample local wines at a trendy wine bar, dine on fresh seafood overlooking the ocean, or dance the night away to the rhythm of African beats.",
     ],
     continent: "Africa",
+    tags: "mountains, beach, garden, history, museums",
   },
   {
     city: "Los Angeles",
@@ -88,6 +95,7 @@ export const data = [
       "At night, Los Angeles dazzles with its vibrant nightlife, with a plethora of bars, clubs, and live music venues to choose from. Whether you're sipping cocktails on a rooftop bar, dancing the night away at a trendy nightclub, or catching a live performance at a legendary music venue, LA promises an unforgettable evening.",
     ],
     continent: "North America",
+    tags: "beach, diversity, parks, food",
   },
   {
     city: "Buenos Aires",
@@ -99,6 +107,7 @@ export const data = [
       "At night, Buenos Aires comes alive with a vibrant energy, with an array of bars, clubs, and live music venues to explore. From intimate speakeasies serving craft cocktails to pulsating nightclubs where you can dance until dawn, the city offers endless opportunities for nocturnal adventures.",
     ],
     continent: "South America",
+    tags: "music, dance, history, food, culture",
   },
   {
     city: "Tokyo",
@@ -110,6 +119,7 @@ export const data = [
       "At night, Tokyo transforms into a dazzling wonderland of lights and entertainment, with a myriad of bars, clubs, and karaoke lounges to explore. Whether you're sipping sake in a traditional izakaya, dancing the night away in a trendy nightclub, or belting out your favorite tunes in a private karaoke booth, Tokyo promises an unforgettable nightlife experience.",
     ],
     continent: "Asia",
+    tags: "architecture, technology, bars, culture",
   },
   {
     city: "London",
@@ -121,6 +131,7 @@ export const data = [
       "At night, London comes alive with a vibrant energy and a thriving nightlife scene. Whether you're sipping cocktails in a chic rooftop bar, dancing the night away in a trendy nightclub, or enjoying a West End show in London's famed theater district, the city offers endless opportunities for entertainment and excitement.",
     ],
     continent: "Europe",
+    tags: "river, culture, sports, urban",
   },
   {
     city: "Auckland",
@@ -132,6 +143,7 @@ export const data = [
       "Auckland's culinary scene is a reflection of its diverse population and cultural influences, with a wide range of dining options to suit every taste and budget. From fresh seafood and farm-to-table cuisine to international flavors and fusion fare, Auckland promises a culinary adventure that will delight food lovers.",
     ],
     continent: "Oceania",
+    tags: "nightlife, museums, galleries, architecture",
   },
   {
     city: "Marrakech",
@@ -143,6 +155,7 @@ export const data = [
       "At night, Marrakech comes alive with the rhythmic beats of live music and the intoxicating aromas of Moroccan cuisine. Experience the magic of a traditional Moroccan dinner under the stars, complete with belly dancing and traditional music, or explore the vibrant nightlife scene at chic rooftop bars and bustling nightclubs.",
     ],
     continent: "Africa",
+    tags: "culture, architecture, food, desert",
   },
   {
     city: "Cancun",
@@ -154,6 +167,7 @@ export const data = [
       "At night, Cancun transforms into a lively party destination, with beachfront clubs, bars, and restaurants pulsating with music, dancing, and entertainment. Experience the excitement of the Hotel Zone's nightlife scene, where world-renowned DJs spin beats until the early hours of the morning.",
     ],
     continent: "North America",
+    tags: "beach, nightlife, eco, sports, adventure",
   },
   {
     city: "Machu Picchu",
@@ -165,6 +179,7 @@ export const data = [
       "At sunrise and sunset, Machu Picchu takes on an ethereal beauty, with the sun casting a golden glow over the ancient ruins and surrounding mountains. Experience the magic of Machu Picchu at dawn, as the mist lifts to reveal the citadel in all its glory, or stay until dusk to witness the mountains bathed in hues of pink and orange.",
     ],
     continent: "South America",
+    tags: "culture, mountains, landscape, spiritual",
   },
   {
     city: "Bali",
@@ -176,6 +191,7 @@ export const data = [
       "Bali's culinary scene is a fusion of flavors influenced by its diverse cultural heritage, with a variety of dining options to suit every palate. From traditional Balinese dishes like nasi goreng and satay to international cuisine and trendy cafes serving Instagram-worthy dishes, Bali promises a gastronomic adventure that will tantalize your taste buds.",
     ],
     continent: "Asia",
+    tags: "landscape, exotic, beach, food, spiritual",
   },
   {
     city: "Rome",
@@ -187,6 +203,7 @@ export const data = [
       "At night, Rome's streets come alive with a vibrant energy, offering endless opportunities for entertainment and exploration. From lively piazzas and bustling bars to intimate wine bars and alfresco concerts, the city offers a rich tapestry of nightlife experiences that capture the essence of la dolce vita.",
     ],
     continent: "Europe",
+    tags: "ancient ruins, culture, architecture, food",
   },
   {
     city: "Melbourne",
@@ -198,6 +215,7 @@ export const data = [
       "At night, Melbourne comes alive with a vibrant energy, offering a wealth of entertainment options for night owls and partygoers alike. From chic rooftop bars and underground clubs to intimate wine bars and live music venues, Melbourne offers endless opportunities to enjoy the city's famed nightlife.",
     ],
     continent: "Australia",
+    tags: "cultural, food, gardens, beach",
   },
   {
     city: "Nairobi",
@@ -209,6 +227,7 @@ export const data = [
       "At night, Nairobi comes alive with a bustling energy, offering a diverse array of entertainment options for visitors to enjoy. From trendy rooftop bars and nightclubs to live music venues and cultural performances, Nairobi's nightlife scene offers something for everyone to experience and enjoy.",
     ],
     continent: "Africa",
+    tags: "urban, cultural, nightlife, food, diversity",
   },
   {
     city: "Miami",
@@ -220,6 +239,7 @@ export const data = [
       "At night, Miami comes alive with a vibrant energy, offering a diverse array of entertainment options for visitors to enjoy. From trendy rooftop bars and nightclubs to live music venues and cultural performances, Miami's nightlife scene offers something for everyone to experience and enjoy.",
     ],
     continent: "North America",
+    tags: "beach, luxury, culture, nightlife",
   },
   {
     city: "Cartagena",
@@ -231,6 +251,7 @@ export const data = [
       "At night, Cartagena comes alive with a vibrant energy, with lively bars, salsa clubs, and open-air cafés filling the streets with music and laughter. Whether you're sipping cocktails at a rooftop bar, dancing the night away to live music, or simply enjoying a leisurely stroll along the historic walls, Cartagena's nightlife scene offers something for everyone to enjoy.",
     ],
     continent: "South America",
+    tags: "architecture, beach, culture, landscape",
   },
   {
     city: "Dubai",
@@ -242,6 +263,7 @@ export const data = [
       "At night, Dubai dazzles with a glittering array of entertainment options, from world-class restaurants and glamorous bars to extravagant nightclubs and live music venues. Whether you're dining in a Michelin-starred restaurant, watching a spectacular fountain show at the Dubai Fountain, or dancing the night away at a beachfront club, Dubai's nightlife promises an unforgettable experience.",
     ],
     continent: "Asia",
+    tags: "skyscrapers, luxury, food, nightlife, desert",
   },
   {
     city: "Barcelona",
@@ -253,6 +275,7 @@ export const data = [
       "At night, Barcelona comes alive with a vibrant energy, with bustling bars, clubs, and live music venues filling the streets with music and laughter. Whether you're sipping cocktails on a rooftop terrace, dancing until dawn in a trendy nightclub, or enjoying a leisurely evening stroll along the waterfront, Barcelona's nightlife scene offers something for everyone to enjoy.",
     ],
     continent: "Europe",
+    tags: "architecture, food, urban, nightlife",
   },
   {
     city: "Great Barrier Reef",
@@ -264,6 +287,7 @@ export const data = [
       "At night, the Great Barrier Reef offers a different kind of magic, with clear skies perfect for stargazing and the gentle lapping of waves against the shore creating a soothing soundtrack for relaxation. Whether you're camping under the stars on a remote island or enjoying a sunset cruise on the reef, the Great Barrier Reef promises an unforgettable experience that will stay with you forever.",
     ],
     continent: "Australia",
+    tags: "eco, beach, landscape, paradise",
   },
   {
     city: "Victoria Falls",
@@ -275,6 +299,7 @@ export const data = [
       "At night, Victoria Falls takes on a magical quality, as the sound of cascading water mingles with the calls of nocturnal wildlife, creating an atmosphere of tranquility and wonder. Whether you're enjoying a candlelit dinner under the stars or marveling at the beauty of the falls illuminated by moonlight, Victoria Falls promises an unforgettable experience that will stay with you long after your visit.",
     ],
     continent: "Africa",
+    tags: "waterfall, adventure, sports, river",
   },
   {
     city: "Toronto",
@@ -286,6 +311,7 @@ export const data = [
       "At night, Toronto comes alive with a vibrant energy, offering a diverse array of entertainment options for visitors to enjoy. From world-class theaters and live music venues to trendy bars and clubs, Toronto's nightlife scene offers something for everyone to experience and enjoy.",
     ],
     continent: "North America",
+    tags: "urban, sports, museum, parks",
   },
   {
     city: "Patagonia",
@@ -297,6 +323,7 @@ export const data = [
       "At night, Patagonia offers a different kind of magic, with clear skies perfect for stargazing and the soothing sounds of nature creating a sense of peace and tranquility. Whether you're camping under the stars, staying in a cozy mountain lodge, or enjoying a traditional asado barbecue with locals, Patagonia promises an unforgettable experience that will stay with you long after your visit.",
     ],
     continent: "South America",
+    tags: "adventure, mountains, icefields, volcanoes, wildlife",
   },
   {
     city: "Singapore",
@@ -308,6 +335,7 @@ export const data = [
       "At night, Singapore dazzles with a vibrant energy, offering a diverse array of entertainment options for visitors to enjoy. From rooftop bars and nightclubs to cultural performances and theatrical productions, Singapore's nightlife scene offers something for everyone to experience and enjoy.",
     ],
     continent: "Asia",
+    tags: "gardens, nightlife, skyscrapers, food",
   },
   {
     city: "Istanbul",
@@ -319,6 +347,7 @@ export const data = [
       "At night, Istanbul comes alive with a vibrant energy, offering a diverse array of entertainment options for visitors to enjoy. From lively rooftop bars and traditional Turkish music performances to late-night cruises on the Bosphorus, Istanbul's nightlife scene offers something for everyone to experience and enjoy.",
     ],
     continent: "Europe/Asia",
+    tags: "history, cultural, food, architecture",
   },
   {
     city: "Queenstown",
@@ -330,5 +359,6 @@ export const data = [
       "At night, Queenstown comes alive with a lively energy, with bustling bars, clubs, and restaurants filling the streets with music and laughter. Whether you're enjoying a gourmet meal with stunning lake views, sampling local craft beers at a waterfront pub, or dancing the night away in a chic nightclub, Queenstown's nightlife scene offers something for everyone to enjoy.",
     ],
     continent: "Oceania",
+    tags: "adventure, sports, lake, luxury",
   },
 ];
