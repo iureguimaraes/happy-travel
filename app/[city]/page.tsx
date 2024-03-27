@@ -41,12 +41,12 @@ export default async function City({ params }: any) {
           {cityUpper}
         </h2>
 
-        <div className="flex items-center mb-8">
+        <div className="flex lg:items-center mb-6 md:mb-8">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="#777"
-            className="w-5 h-5 mr-2"
+            className="w-6 h-6 md:w-5 md:h-5 mr-2"
           >
             <path
               fill-rule="evenodd"
@@ -55,7 +55,7 @@ export default async function City({ params }: any) {
             />
           </svg>
 
-          <p className="text-gray-500 italic font-mono tracking-tight">
+          <p className="text-gray-500 italic font-mono tracking-tight text-sm md:text-base">
             {cityData[0]["tags"]}
           </p>
         </div>
